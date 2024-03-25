@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Gallery Filter With Pagination Responsive</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+
+<!--title-->
+	<div class="header">
+    	<h1>Portfolio</h1>
+        <p>Isotope Filter Gallery With Responsive, Pagination, Popup.</p>
+    </div>
+<!--title-->
+
+<div class="filters filter-button-group">
+	<ul>
+		<li class="active"><a href="javascript:void(0);" data-filter="*">All</a></li>
+		<li><a href="javascript:void(0);" data-filter="bike">Bike</a></li>
+		<li><a href="javascript:void(0);" data-filter="bus">Bus</a></li>
+        <li><a href="javascript:void(0);" data-filter="car">Car</a></li>
+	</ul>
+</div>
+	<div id="container" class="isotope">
+    
+		<div class="grid-item" data-filter="bike">
+            <a class="open-popup-link" href="#test-popup">
+                <img src="/img/bike2.jpg">
+                <div class="overlay">
+                    <p>Bike</p>
+                    <p>Bike</p>
+                    <p>Bike</p>
+                </div>
+            </a>
+
+            <div id="test-popup" class="white-popup mfp-hide">
+                <img src="/img/bike2.jpg">
+                <img src="/img/bike2.jpg">
+                <img src="/img/bike2.jpg">
+            </div>
+        </div>
+
+        
+        
+        
+        <div class="grid-item" data-filter="car">
+            <a class="open-popup-link" href="#test-popup2">
+                <img src="/img/car1.jpg">
+                <div class="overlay">Car</div>
+            </a>
+
+            <div id="test-popup2" class="white-popup mfp-hide">
+                <img src="/img/car1.jpg">
+                <img src="/img/car1.jpg">
+                <img src="/img/car1.jpg">
+            </div>
+        </div>
+        
+        
+		<div class="grid-item" data-filter="bike">
+            <a class="popupimg" href="/img/bike3.jpg">
+                <img src="/img/bike3.jpg">
+                <div class="overlay">Bike</div>
+            </a>
+        </div>
+        
+        
+        <div class="grid-item" data-filter="car">
+            <a class="popupimg" href="/img/car2.jpg">
+                <img src="/img/car2.jpg">
+                <div class="overlay">Car</div>
+            </a>
+        </div>
+        
+        
+		<div class="grid-item" data-filter="bike">
+            <a class="popupimg" href="/img/bike4.jpg">
+                <img src="/img/bike4.jpg">
+                <div class="overlay">Bike</div>
+            </a>
+        </div>
+        
+        
+        <div class="grid-item" data-filter="bus">
+            <a class="popupimg" href="/img/bus1.jpg">
+                <img src="/img/bus1.jpg">
+                <div class="overlay">Bus</div>
+            </a>
+        </div>
+        
+        
+		<div class="grid-item" data-filter="bus">
+            <a class="popupimg" href="/img/bus2.jpg">
+                <img src="/img/bus2.jpg">
+                <div class="overlay">Bus</div>
+            </a>
+        </div>
+        
+        
+        <div class="grid-item" data-filter="car">
+            <a class="popupimg" href="/img/car3.jpg">
+                <img src="/img/car3.jpg">
+                <div class="overlay">Car</div>
+            </a>
+        </div>
+        
+        
+		<div class="grid-item" data-filter="bus">
+            <a class="popupimg" href="/img/bus3.jpg">
+                <img src="/img/bus3.jpg">
+                <div class="overlay">Bus</div>
+            </a>
+        </div>
+        
+		<div class="grid-item" data-filter="car">
+            <a class="popupimg" href="/img/car4.jpg">
+                <img src="/img/car4.jpg">
+                <div class="overlay">Car</div>
+            </a>
+            
+        </div>
+        
+        
+		<div class="grid-item" data-filter="car">
+            <a class="popupimg" href="/img/car5.jpg">
+                <img src="/img/car5.jpg">
+                <div class="overlay">Car</div>
+            </a>
+        </div>
+        
+        
+        <div class="grid-item" data-filter="bike">
+            <a class="popupimg" href="/img/bike4.jpg">
+                <img src="/img/bike4.jpg">
+                <div class="overlay">Bike</div>
+            </a>
+        </div>
+        
+        
+		<div class="grid-item" data-filter="car">
+            <a class="popupimg" href="/img/car6.jpg">
+                <img src="/img/car6.jpg">
+                <div class="overlay">
+                    <p>Car</p>
+                </div>
+            </a>
+        </div>
+        
+		<div class="grid-item" data-filter="car">
+            <a class="popupimg" href="/img/car6.jpg">
+                <img src="/img/car6.jpg">
+                <div class="overlay">Car</div>
+            </a>
+        </div>
+		
+
+	</div>
+    
+    <div class="isotope-pager" style="padding-top: 15px; text-align:center;"></div>
+
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script>
+  <script src="/scripts.js"></script>
+
+</body>
+</html>
