@@ -57,6 +57,7 @@ body {
     transition: 0.9s;    
     object-fit: cover;
     transition: transform .5s ease;
+    padding: 10px;
 }
 
 .grid-item p {
@@ -179,8 +180,8 @@ body {
 .overlay {
   position: absolute; 
   bottom: 0; 
-  top: 0;
-  left: 0;
+  top: 10px;
+  left: 10px;
   right: 0;
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1; 
