@@ -16,7 +16,7 @@ jQuery(document).ready( function() {
 		[720, 10]
 	];
 
-	let itemsPerPageDefault = 12;
+	let itemsPerPageDefault = 9;
 	let itemsPerPage = defineItemsPerPage();
 	let currentNumberPages = 1;
 	let currentPage = 1;
