@@ -43,6 +43,10 @@ body {
     font-size: 20px;
 } */
 
+.commercial-gallery.denver .grid-item .main-city {
+  display: none;
+}
+
 .grid-item {
     display: inline-block;
     height: 259px;
