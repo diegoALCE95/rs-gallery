@@ -1,4 +1,4 @@
-jQuery(document).ready( function() {
+jQuery(document).ready( function($) {
 
 	let itemSelector = '.grid-item'; 
 
@@ -128,7 +128,7 @@ jQuery(document).ready( function() {
 
 
 
-jQuery(document).ready( function() {   
+jQuery(document).ready( function($) {   
 
     // filter items on button click
     $('.filter-button-group').on( 'click', 'li', function() {
@@ -140,7 +140,7 @@ jQuery(document).ready( function() {
 });
 	
 
-jQuery(document).ready( function() {   
+jQuery(document).ready( function($) {   
 
     // filter items on button click
     $('.isotope-pager').on( 'click', 'a', function() {
@@ -153,7 +153,7 @@ jQuery(document).ready( function() {
 	
 	
 
-jQuery(document).ready(function(){
+jQuery(document).ready(function($){
     $('.popupimg').magnificPopup({
         type: 'image',
         mainClass: 'mfp-with-zoom', 
@@ -185,7 +185,7 @@ jQuery(document).ready(function(){
 
 
 /* test inline popup */
-jQuery(document).ready(function(){
+jQuery(document).ready(function($){
     $('.open-popup-link').magnificPopup({
         type:'inline',
         midClick: true, // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.

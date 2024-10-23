@@ -24,24 +24,6 @@ body {
 .isotope-pager {
   padding-bottom: 30px;
 }
-/* .header h1 {
-	  text-align: center;
-    background: -webkit-linear-gradient(#e3ca66, #b48e47);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 4.5em;
-    font-family: 'Parisienne', cursive;
-	  margin-bottom: 15px;
-}
-
-.header p {
-	  text-align: center;
-    background: -webkit-linear-gradient(#e3ca66, #b48e47);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
-    font-size: 20px;
-} */
 
 .commercial-gallery.denver .grid-item .main-city {
   display: none;
@@ -122,29 +104,22 @@ body {
 	
 }
 
-
-
 .isotope-pager a {
   margin: 6px 1px;
   display: inline-block;
   width: 50px;
-  /* height: 60px; */
   line-height: 31px;
   color: #b6b6b6;
   font-weight: 600;
   transition: 0.3s;
-  /* position: relative; */
-  /* padding-right: 26px; */
   box-shadow: -1px 1px 11px rgba(0,0,0,.1);
   border-radius: 25px;
   background-color: #232323;
-  /* border: .5px solid #e3ca66; */
   text-decoration:none;
 }
 
 .isotope-pager a:hover {
   color: #fff;
-  /* border: .5px solid #ffeeac; */
   box-shadow: -1px 1px 10px 3px rgba(0,0,0,.1);
 }
 
@@ -153,7 +128,6 @@ body {
   box-shadow: -1px 1px 10px 5px rgba(0,0,0,.1);
   border-radius: 25px;
   background-color: #C92617;
-  /* border: 1px dotted #e3ca66; */
 }
 
 .isotope-pager .prev{
@@ -203,8 +177,6 @@ body {
 .overlay:hover {
   opacity: 1;
 }
-
-
 
 /* popups */
 .white-popup {
