@@ -154,7 +154,7 @@ body {
   right: 0;
 }
 
-.overlay {
+.portfolio-gallery .overlay {
   position: absolute; 
   bottom: 0; 
   top: 10px;
@@ -174,7 +174,7 @@ body {
   place-content: center;
 }
 
-.overlay:hover {
+.portfolio-gallery .overlay:hover {
   opacity: 1;
 }
 
